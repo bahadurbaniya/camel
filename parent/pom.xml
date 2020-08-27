@@ -534,7 +534,7 @@
     <olingo2-version>2.0.10</olingo2-version>
     <olingo-odata2-core-bundle-version>2.0.10_1</olingo-odata2-core-bundle-version>
     <olingo2-gson-version>2.4</olingo2-gson-version>
-    <olingo4-version>4.4.0</olingo4-version>
+    <olingo4-version>4.7.0</olingo4-version>
     <ognl-version>3.1.12</ognl-version>
     <ognl-bundle-version>3.1.12_1</ognl-bundle-version>
     <opencensus-api-version>0.12.3</opencensus-api-version>
@@ -782,8 +782,8 @@
       org.apache.lucene.*;version="${lucene-version-range}",
       org.apache.solr.*;version="${solr-version-range}",
     </camel.osgi.import.defaults>
-    <camel.osgi.import.before.defaults />
-    <camel.osgi.import.additional />
+    <camel.osgi.import.before.defaults/>
+    <camel.osgi.import.additional/>
     <camel.osgi.import.pkg>
       !${camel.osgi.export.pkg},
       org.apache.camel.*;${camel.osgi.import.camel.version},
@@ -792,18 +792,18 @@
       ${camel.osgi.import.additional},
       *
     </camel.osgi.import.pkg>
-    <camel.osgi.activator />
+    <camel.osgi.activator/>
     <camel.osgi.failok>false</camel.osgi.failok>
     <camel.osgi.private.pkg>!*</camel.osgi.private.pkg>
     <camel.osgi.export>${camel.osgi.export.pkg};${camel.osgi.version}</camel.osgi.export>
     <camel.osgi.version>version=${project.version}</camel.osgi.version>
     <camel.osgi.split.pkg>-split-package:=first</camel.osgi.split.pkg>
     <camel.osgi.import>${camel.osgi.import.pkg}</camel.osgi.import>
-    <camel.osgi.dynamic />
+    <camel.osgi.dynamic/>
     <camel.osgi.symbolic.name>${project.groupId}.${project.artifactId}</camel.osgi.symbolic.name>
     <camel.osgi.exclude.dependencies>false</camel.osgi.exclude.dependencies>
-    <camel.osgi.require.capability />
-    <camel.osgi.provide.capability />
+    <camel.osgi.require.capability/>
+    <camel.osgi.provide.capability/>
   </properties>
 
   <dependencyManagement>
@@ -5351,7 +5351,7 @@
                    </goals>
                  </pluginExecutionFilter>
                  <action>
-                   <ignore />
+                   <ignore/>
                  </action>
                </pluginExecution>
                <pluginExecution>
@@ -5364,7 +5364,7 @@
                    </goals>
                  </pluginExecutionFilter>
                  <action>
-                   <ignore />
+                   <ignore/>
                  </action>
                </pluginExecution>
              </pluginExecutions>
